@@ -39,6 +39,7 @@ h1 {
 
 main{
     display: flex;
+    scrollbar-width: thin;
 }
 
 .sidebar {
@@ -69,6 +70,7 @@ main{
 .frame-container {
     flex-grow: 1;
     margin-left: 200px; /* Ширина боковой панели */
+    scrollbar-width: thin;
 }
 
 #frame {
