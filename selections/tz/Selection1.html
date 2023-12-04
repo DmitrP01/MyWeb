@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваша страница</title>
+    <!-- Подключаем стили CSS -->
+    <link rel="stylesheet" href="Selection1.css">
+</head>
+<body>
+
+    <!-- Шапка страницы -->
+    <header class="fixed-header">
+        <!-- Кнопка "Назад" -->
+        <a class="BackButton" href="file:///C:/Users/dimap/OneDrive/Рабочий%20стол/Сайт/Портфолио/Index.html">&#9664 Назад</a>
+        <!-- Название раздела -->
+        <h1>Проектирование систем | Технические задания</h1>
+    </header>
+
+    <!-- Основной контент страницы -->
+    <main>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#" onclick="openFrame('https://docs.google.com/document/d/1OYleIOgy7h2l4u23nXAUdmBqvg2bPX67q0ne7l8zVqA/edit?usp=sharing')" class="link center">Система управления проектами</a></li>
+                <li><a href="#" onclick="openFrame('frame_arr.html')" class="link center">Система подбора франшиз</a></li>
+                <li><a href="#" class="link center">Сайт по продаже мебели</a></li>
+            </ul>
+        </nav>
+
+         <!-- Окно с фреймом справа -->
+         <div class="frame-container">щ
+            <iframe id="frame"></iframe>
+         </div>
+    </main>
+
+    <!-- Подключаем скрипт JavaScript -->
+    <script src="Selection1.js"></script>
+</body>
+</html>

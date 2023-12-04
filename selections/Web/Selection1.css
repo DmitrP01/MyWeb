@@ -1,0 +1,92 @@
+body {
+    font-family: 'SF UI Display Medium';
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Центрирование по горизонтали */
+}
+
+.BackButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: color 0.3s, background-color 0.3s; /* Добавляем плавные переходы */
+    margin-right: auto;
+    
+}
+
+.BackButton:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    margin-right: 35%; /* Убираем внешние отступы для заголовка */
+}
+
+main{
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    margin-top: 7%;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.frame-container {
+    flex-grow: 1;
+    margin-left: 200px; /* Ширина боковой панели */
+}
+
+#frame {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    display: none;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Добавляем тень при фиксации */
+}
+
+@font-face {
+	font-family: 'SF UI Display Medium';
+	src: url('fonts/sf_ui_display_medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/sf_ui_display_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/sf_ui_display_medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/sf_ui_display_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/sf_ui_display_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/sf_ui_display_medium.svg#sf_ui_display_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}

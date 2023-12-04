@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайты | Лэндинги | Макеты</title>
+    <!-- Подключаем стили CSS -->
+    <link rel="stylesheet" href="Selection1.css">
+</head>
+<body>
+
+    <!-- Шапка страницы -->
+    <header class="fixed-header">
+        <!-- Кнопка "Назад" -->
+        <a class="BackButton" href="#">&#9664 Назад</a>
+        <!-- Название раздела -->
+        <h1>Сайты | Лэндинги | Макеты</h1>
+    </header>
+
+    <!-- Основной контент страницы -->
+    <main>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#" onclick="openFrame('file:///C:/Users/dimap/OneDrive/Рабочий%20стол/Сайт/Винный%20магазин/Index.html')" class="link center">Лэндинг "Винный магазин"</a></li>
+                <li><a href="#" onclick="openFrame('frame_arr.html')" class="link center">Ресторан</a></li>
+                <li><a href="#" class="link center">Спортивное приложение</a></li>
+                <li><a href="#" onclick="openFrame('frame_arr.html')" class="link center">Магазин Nike</a></li>
+            </ul>
+        </nav>
+
+         <!-- Окно с фреймом справа -->
+         <div class="frame-container">
+            <iframe id="frame"></iframe>
+         </div>
+    </main>
+
+    <!-- Подключаем скрипт JavaScript -->
+    <script src="Selection1.js"></script>
+</body>
+</html>

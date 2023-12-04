@@ -1,0 +1,139 @@
+/* Общие стили */
+body {
+    font-family: 'SF UI Display Medium', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+.pre{
+    color: #fff;
+}
+
+.round-icon {
+    border-radius: 50%; /* Создает круглую форму с помощью border-radius */
+    overflow: hidden; /* Обрезает изображение по границам круглой формы */
+}
+
+.resume-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume-button-container {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: color 0.3s, background-color 0.3s; /* Добавляем плавные переходы */
+}
+
+.resume-button-container:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Блок 2 */
+.portfolio-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.portfolio-button {
+    display: inline-block;
+    width: 600px; /* Фиксированная ширина для всех кнопок */
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, filter 0.3s;
+    border-style: none;
+}
+
+.portfolio-button:hover {
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.1);
+}
+
+/* Выравнивание текста в кнопке */
+.portfolio-button span {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.TZ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sql {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover .a {
+    display: none;
+  }
+  a .b {
+    display: none;
+  }
+  a:hover .b {
+    display: inline;
+  }
+
+/* Блок_3. Подвал */
+.padval {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.stretched-text{
+    letter-spacing: 2px;
+}
+
+
+@font-face {
+	font-family: 'SF UI Display Medium';
+	src: url('fonts/sf_ui_display_medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/sf_ui_display_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/sf_ui_display_medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/sf_ui_display_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/sf_ui_display_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/sf_ui_display_medium.svg#sf_ui_display_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
