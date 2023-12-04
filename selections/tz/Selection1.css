@@ -4,6 +4,10 @@ body {
     scrollbar-width: thin;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 header {
     background-color: black;
     color: white;
